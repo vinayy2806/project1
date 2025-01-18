@@ -10,5 +10,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 hostname Jenkins-server
-
-
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+init 6
